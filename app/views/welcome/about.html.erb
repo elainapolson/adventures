@@ -1,0 +1,21 @@
+<style>
+body {
+	color: <%= @color%>;
+	}
+</style>
+
+
+<h1 align = "center">About</h1>
+
+<body>
+<p align = "center">Selvage disrupt messenger bag roof party semiotics, authentic mixtape sriracha swag scenester. Dreamcatcher readymade seitan, forage 8-bit salvia narwhal squid farm-to-table normcore Schlitz. Pop-up 90's Austin, chillwave Schlitz banjo jean shorts. Meditation mustache art party, asymmetrical biodiesel disrupt Brooklyn cornhole Godard occupy.</p>
+<p align = "center">Pop-up Tumblr biodiesel, High Life tattooed kitsch banh mi iPhone artisan cold-pressed post-ironic Carles. Tofu Schlitz Intelligentsia health goth XOXO ennui beard, pug slow-carb. Wayfarers irony organic, 8-bit before they sold out whatever cornhole kitsch tofu brunch four dollar toast vinyl beard cliche.</p>
+
+<%= link_to "Blue", {controller: "welcome", action: "about", color: "blue"}, class: "btn btn-primary" %>
+
+<%= link_to "Red", {controller: "welcome", action: "about", color: "red"}, class: "btn btn-danger" %>
+
+<%= link_to "Green", {controller: "welcome", action: "about", color: "green"}, class: "btn btn-success" %>
+
+<%= link_to "Orange", {controller: "welcome", action: "about", color: "orange"}, class: "btn btn-warning" %>
+</body>
